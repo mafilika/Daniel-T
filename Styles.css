@@ -93,4 +93,32 @@ p a[href*="page1"]:hover {
     border-radius: 8px;
     border: 2px solid #ccc;
     }
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.image-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.image-container img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0044cc; /* link color */
+    font-weight: bold;
+}
+
+.image-container a:hover {
+    text-decoration: underline;
+    }
