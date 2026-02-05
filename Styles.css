@@ -1,0 +1,82 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f8fb;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+/* Main content spacing */
+body > * {
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    color: #0b3c5d;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #1f6fb2;
+    border-bottom: 2px solid #1f6fb2;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+    max-width: 900px;
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #1f6fb2;
+    margin: 30px 0;
+}
+
+/* Links styled as buttons */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1f6fb2;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Hover effect */
+a:hover {
+    background-color: #0b3c5d;
+}
+
+/* Contact info emphasis */
+strong {
+    color: #0b3c5d;
+}
+
+/* Center service links on home page */
+h2 + p {
+    text-align: center;
+}
+
+/* Footer-style back links */
+p a[href*="page1"] {
+    background-color: #ffffff;
+    color: #1f6fb2;
+    border: 2px solid #1f6fb2;
+}
+
+p a[href*="page1"]:hover {
+    background-color: #1f6fb2;
+    color: #ffffff;
+}
